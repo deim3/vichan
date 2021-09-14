@@ -1,5 +1,15 @@
 vichan - A lightweight and full featured PHP imageboard.
 ========================================================
+WORK IN PROGRESS - will update it with functions implemented for nichan.net and belchan.eu imageboards
+========================================================
+List of functions added in this fork:
+
+1) Blacklisted words. Array of strings that are blacklisted and cannot be included in the post. Search $config['spamwords'] in the config.php for an example
+Other functions will be added later.
+
+========================================================
+BELOW IN THE CONTENT OF THE ORIGINAL README
+========================================================
 
 **Vichan has next to no active development<!--, however you can still pay for support. Basic support costs $40/hr, and is only payable in BTC. New features depend on what you want. Email COPYPASTE &lt;AT&gt; KITTENS &lt;DOT&gt; PH if you're interested&mdash;Vichan forks such as OpenIB are included in this offer-->.**
 
@@ -9,7 +19,7 @@ vichan is a free light-weight, fast, highly configurable and user-friendly
 imageboard software package. It is written in PHP and has few dependencies.
 
 *Security problems can be reported to the development team: DEVELOPMENT \<AT\> VICHAN \<DOT\> NET.*
-	
+
 While there is currently no active development besides fixing security problems, we don't exclude the possibility to refactor the code in order to meet today's standards and continue our work from the point where [@czaks](https://github.com/czaks) retired in 2017.
 Before this milestone is achieved though, we strongly urge you to consider other imageboard packages. It is the opinion of the vichan development team that no new vichan imageboards should be deployed at the moment, and other imageboard packages used instead.
 
@@ -34,7 +44,7 @@ Requirements
 1.	PHP >= 5.4 (we still try to keep compatibility with php 5.3 as much as possible)
         PHP 7.0 is explicitly supported. PHP 7.2 works as well, but may cause as yet unreported bugs.
 2.	MySQL/MariaDB server
-3.	[mbstring](http://www.php.net/manual/en/mbstring.installation.php) 
+3.	[mbstring](http://www.php.net/manual/en/mbstring.installation.php)
 4.	[PHP GD](http://www.php.net/manual/en/intro.image.php)
 5.	[PHP PDO](http://www.php.net/manual/en/intro.pdo.php)
 6.	A Unix-like OS, preferrably FreeBSD or Linux
@@ -62,7 +72,7 @@ Installation
 
         git clone git://github.com/vichan-devel/vichan.git
 
-2.	run ```composer install``` inside the directory	
+2.	run ```composer install``` inside the directory
 3.	Navigate to ```install.php``` in your web browser and follow the
 	prompts.
 4.	vichan should now be installed. Log in to ```mod.php``` with the
@@ -121,4 +131,3 @@ https://github.com/vichan-devel/vichan-API/ .
 License
 --------
 See [LICENSE.md](http://github.com/vichan-devel/vichan/blob/master/LICENSE.md).
-
