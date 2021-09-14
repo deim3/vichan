@@ -1,12 +1,12 @@
 vichan - A lightweight and full featured PHP imageboard.
 ========================================================
-WORK IN PROGRESS - will update it with functions implemented for nichan.net and belchan.eu imageboards
+WIP - will update it with functions implemented for nichan.net and belchan.eu imageboards
 ========================================================
 List of functions added in this fork:
 
-1) Blacklisted words. Array of strings that are blacklisted and cannot be included in the post. Search $config['spamwords'] in the config.php for an example
-Other functions will be added later.
+1) Blacklisted words. Array of strings that are blacklisted and cannot be included in the post. Search $config['spamwords'] in the config.php for an example.
 
+Other functions will be added later.
 ========================================================
 BELOW IN THE CONTENT OF THE ORIGINAL README
 ========================================================
